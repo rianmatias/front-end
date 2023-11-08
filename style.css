@@ -31,8 +31,24 @@
     text-decoration: none;
 }
 
+.header-menu-link > div a.button {
+    color: blue;
+    text-decoration: none;
+    background: yellow;
+    font-weight: bold;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
 .header-menu-link a:hover {
     border-bottom: 2px solid yellow;
+}
+
+.header-menu-link > div a:hover.button {
+    border-bottom: 0px;
 }
 
 .header-menu-link a.button {
